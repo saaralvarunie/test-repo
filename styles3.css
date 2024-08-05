@@ -1,0 +1,121 @@
+/* styles3.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+h1, h2, h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    color: #666;
+    margin: 10px 0;
+}
+
+#intro p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.font {
+    color: #888;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e4e4e4;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+dt {
+    font-weight: bold;
+    color: #333;
+}
+
+dd {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+dl {
+    margin: 0;
+}
+
+.container:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    #intro p {
+        font-size: 16px;
+    }
+
+    .font {
+        font-size: 14px;
+    }
+}
